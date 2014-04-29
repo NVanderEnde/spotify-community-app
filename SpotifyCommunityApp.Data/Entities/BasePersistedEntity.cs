@@ -8,6 +8,6 @@ namespace SpotifyCommunityApp.Data.Entities
 {
     abstract class BasePersistedEntity
     {
-        Guid Id { get; set; }
+        internal Guid Id { get; set; }
     }
 }
