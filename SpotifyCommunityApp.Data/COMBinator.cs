@@ -29,7 +29,7 @@ namespace SpotifyCommunityApp.Data
             byte[] daysArray = BitConverter.GetBytes(days.Days);
             byte[] msecsArray = BitConverter.GetBytes((long)(msecs.TotalMilliseconds / 3.333333));
 
-            // Reverse the bytes to match SQL Servers ordering 
+            // Reverse the bytes to match SQL Server's ordering 
             Array.Reverse(daysArray);
             Array.Reverse(msecsArray);
 
