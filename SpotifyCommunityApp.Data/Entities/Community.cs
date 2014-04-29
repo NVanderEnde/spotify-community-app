@@ -12,5 +12,6 @@ namespace SpotifyCommunityApp.Data.Entities
     class Community : BasePersistedEntity
     {
         string Name { get; set; }
+        virtual IEnumerable<Playlist> Playlists { get; set; }
     }
 }
