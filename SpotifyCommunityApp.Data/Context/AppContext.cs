@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SpotifyCommunityApp.Data
+namespace SpotifyCommunityApp.Data.Context
 {
-    public class Class1
+    class AppContext : DbContext
     {
     }
 }
